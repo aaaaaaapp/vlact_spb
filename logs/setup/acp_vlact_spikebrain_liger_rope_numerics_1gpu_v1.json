@@ -1,0 +1,210 @@
+{
+  "dtype": "bfloat16",
+  "liger_comparison": {
+    "gradients": {
+      "lm_head.weight": {
+        "actual_finite": true,
+        "actual_norm": 55.89443588256836,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 55.89443588256836,
+        "relative_l2": 0.0
+      },
+      "model.language_model.layers.18.input_layernorm.weight": {
+        "actual_finite": true,
+        "actual_norm": 0.4877437353134155,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 0.4877437353134155,
+        "relative_l2": 0.0
+      },
+      "model.language_model.layers.18.mlp.gate_proj.weight": {
+        "actual_finite": true,
+        "actual_norm": 10.099384307861328,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 10.099384307861328,
+        "relative_l2": 0.0
+      },
+      "model.language_model.layers.35.mlp.down_proj.weight": {
+        "actual_finite": true,
+        "actual_norm": 17.707414627075195,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 17.707414627075195,
+        "relative_l2": 0.0
+      },
+      "model.language_model.layers.35.post_attention_layernorm.weight": {
+        "actual_finite": true,
+        "actual_norm": 1.0248836278915405,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 1.0248836278915405,
+        "relative_l2": 0.0
+      },
+      "model.language_model.norm.weight": {
+        "actual_finite": true,
+        "actual_norm": 0.5955885052680969,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 0.5955885052680969,
+        "relative_l2": 0.0
+      }
+    },
+    "hidden": {
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "relative_l2": 0.0
+    },
+    "loss": {
+      "abs": 0.0,
+      "actual": 15.154003143310547,
+      "reference": 15.154003143310547,
+      "relative": 0.0
+    }
+  },
+  "liger_status": {
+    "available": true,
+    "error": null,
+    "fused_linear_cross_entropy": false,
+    "lm_head_check": null,
+    "rms_check": null,
+    "rms_norm": false,
+    "rope": true,
+    "rope_check": {
+      "head_k": {
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "head_q": {
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "interleaved_layout": true,
+      "seq_k": {
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "seq_q": {
+        "max": 0.0,
+        "mean": 0.0
+      }
+    },
+    "rope_modules": [
+      "transformers_modules.SpikeBrain_hyphen_2_dot_0_hyphen_VL.attn",
+      "transformers_modules.SpikeBrain_hyphen_2_dot_0_hyphen_VL.moba_attn",
+      "transformers_modules.SpikeBrain_hyphen_2_dot_0_hyphen_VL.modeling_spb2_vl",
+      "transformers_modules.SpikeBrain_hyphen_2_dot_0_hyphen_VL.sse_swa"
+    ],
+    "swiglu": false,
+    "swiglu_check": null
+  },
+  "model": "/mnt/jfzn/liujn/code/Starvla/Starvla/spikebrain/SpikeBrain-2.0-VL",
+  "native_repeatability": {
+    "gradients": {
+      "lm_head.weight": {
+        "actual_finite": true,
+        "actual_norm": 55.89443588256836,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 55.89443588256836,
+        "relative_l2": 0.0
+      },
+      "model.language_model.layers.18.input_layernorm.weight": {
+        "actual_finite": true,
+        "actual_norm": 0.4877437353134155,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 0.4877437353134155,
+        "relative_l2": 0.0
+      },
+      "model.language_model.layers.18.mlp.gate_proj.weight": {
+        "actual_finite": true,
+        "actual_norm": 10.099384307861328,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 10.099384307861328,
+        "relative_l2": 0.0
+      },
+      "model.language_model.layers.35.mlp.down_proj.weight": {
+        "actual_finite": true,
+        "actual_norm": 17.707414627075195,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 17.707414627075195,
+        "relative_l2": 0.0
+      },
+      "model.language_model.layers.35.post_attention_layernorm.weight": {
+        "actual_finite": true,
+        "actual_norm": 1.0248836278915405,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 1.0248836278915405,
+        "relative_l2": 0.0
+      },
+      "model.language_model.norm.weight": {
+        "actual_finite": true,
+        "actual_norm": 0.5955885052680969,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "norm_relative": 0.0,
+        "reference_finite": true,
+        "reference_norm": 0.5955885052680969,
+        "relative_l2": 0.0
+      }
+    },
+    "hidden": {
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "relative_l2": 0.0
+    },
+    "loss": {
+      "abs": 0.0,
+      "actual": 15.154003143310547,
+      "reference": 15.154003143310547,
+      "relative": 0.0
+    }
+  },
+  "peak_memory_gib": {
+    "liger": 21.97189712524414,
+    "native": 21.97189712524414,
+    "warmup_native": 21.968473434448242
+  },
+  "requested": {
+    "fused_linear_cross_entropy": false,
+    "rms_norm": false,
+    "rope": true,
+    "swiglu": false
+  },
+  "sequence_length": 64,
+  "timing": {
+    "liger_backward_seconds": 0.7226781398057938,
+    "liger_forward_seconds": 0.412043496966362,
+    "native_backward_seconds": 0.5499345511198044,
+    "native_forward_seconds": 0.2274918034672737,
+    "warmup_native_backward_seconds": 21.093741703778505,
+    "warmup_native_forward_seconds": 22.032079476863146
+  }
+}

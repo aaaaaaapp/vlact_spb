@@ -1,0 +1,7 @@
+# 在 106.75.235.248 上执行（需 root 或 ftpuser 管理权限）：
+#   mkdir -p ~ftpuser/.ssh && chmod 700 ~ftpuser/.ssh
+#   cat >> ~ftpuser/.ssh/authorized_keys <<'EOF'
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD8ObyJwPn7bE2fiGgTL4iIzTCoNGVRwV/tt3sXlmKUmq1uValmCJchQ6xmCpRUX9zpcAsos+/pq+riQo9FxVYtLqJyvRlzZpPm6USOT617nEwraNAwkDSU7y3ZSV9ngNN2L4Ipgx347RLCUf1deK3Lw8x/JMqGYYlYq8eG29ZWG4EVrkAkm+gyfQpF1foNJf50SqD18KCFBr5mVgJZobhH5rBXClZ6W4hLqXlo5OEg339FUBCGuYbZOLQx3kVnoNhEVtruQ+k7lK0fFY7mRH2JUle1mSzV5YLuhDTBzsZgPew0E6jykBvI81BZxxamAdlbvnQ/Km2oqwBYuS3vuE3ptIqFr5/epO3irGehElDTAzkeKZav+/YfXu/Y8tkyHNgv6GJPszwmIppIRz1e/rtGLFBsI4Loh3o5cFJCqey9roBtP0PSXUdvSUxiAdG+c/6eSrx02im3VUgvFluMEHRCD+mMUz71jb/hXZppxe+VtNba6oGXmdRWwoT1uIvfR37suscr2t6MRB/cMIy9pQ+cGxZ+gsjFC4hTnTQB/4t/KedBGttT8utU4Pb5OTEWkymxTmFv9gA9zb+pYVz4UqHOJ1WbPLuKWeglDx348RhnTPOGx4YyS9UN/uMMIlXkftb3S5Tq/7oPRg9ShNO1zfsOuzn7O0B/NbmxekC1a4IzZQ== root@di-20260613120619-84fwm
+#   EOF
+#   chmod 600 ~ftpuser/.ssh/authorized_keys
+#   chown -R ftpuser:ftpuser ~ftpuser/.ssh

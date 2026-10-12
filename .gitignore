@@ -1,0 +1,43 @@
+# Local caches and generated experiment outputs
+.acp_deps/
+.hf_modules_cache/
+.kernel_cache/
+logs/
+results/
+artifacts/
+wandb/
+
+# Model weights and checkpoints
+**/checkpoint*/
+**/checkpoints/
+**/final_model/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Data and generated media
+data/
+datasets/
+pretrained_models/
+*.npz
+*.npy
+*.mp4
+*.avi
+*.mov
+
+# Python/build/cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.env
+.DS_Store
+*.lock
+*.tmp
+*.swp
